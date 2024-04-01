@@ -2,7 +2,8 @@
     text-align: center;
 }
 .mx-auto{
-    margin:auto
+    margin:auto;
+    background-color:black;
 }
 .max-wid{
     max-width: 20dvw;
@@ -10,9 +11,10 @@
 .button{
     padding: 20px;
     margin: 0 3px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 9px;
     cursor: pointer;
+    border: 1px solid yellow;
 }
 
 .flex{
@@ -24,9 +26,12 @@ flex-direction: column;
 .items-center
 {
     align-items: center;
+    
 }
 .row{
         margin: 8px 0;
+        
+        
 }
 .row input{
     width: 291px;
@@ -35,5 +40,11 @@ flex-direction: column;
       padding: 10px 0px;
       border: 2px solid black;
       border-radius: 5px;
+      background-color: grey;
+      color: white;
+      
   }
   
+.calculator{
+    border: 1px solid yellow ;
+}
